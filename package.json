@@ -1,5 +1,5 @@
 {
-    "name": "@payed/terminal",
+    "name": "payed-terminal",
     "version": "0.0.1",
     "description": "Payed terminal js sdk",
     "main": "dist/index.js",
