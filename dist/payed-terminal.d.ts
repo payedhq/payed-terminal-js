@@ -5,7 +5,7 @@ export declare class PayedTerminal {
     protected applicationId: string;
     private printLines?;
     constructor(applicationId: string);
-    getTerminalId(): String;
+    getTerminalId(): string;
     appendToPrintOutOnSuccess(printLines: PrintLines): PayedTerminal;
     initiatePayment(reference: string, totalPrice: number): boolean;
 }

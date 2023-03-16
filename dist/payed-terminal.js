@@ -26,6 +26,7 @@ class PayedTerminal {
             printablesJson = JSON.stringify(this.printLines);
         }
         PayedPos.initiatePayment(this.applicationId, reference, totalPrice, printablesJson);
+        this.printLines = null;
         return true;
     }
 }
