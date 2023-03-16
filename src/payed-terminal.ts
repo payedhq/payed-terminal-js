@@ -7,7 +7,7 @@ export class PayedTerminal {
 
     }
 
-    public getTerminalId() : String {
+    public getTerminalId() : string {
         return PayedPos.getTerminalId()
     }
     
@@ -32,7 +32,7 @@ export class PayedTerminal {
         }
 
         PayedPos.initiatePayment(this.applicationId, reference, totalPrice, printablesJson);
-        
+        this.printLines = null
         return true;
     }
 }
