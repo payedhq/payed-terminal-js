@@ -1,4 +1,4 @@
-type PrintLines = {[key: string]: string}
+export type PrintLines = {[key: string]: string}
 
 export class PayedTerminal {
     private printLines?: PrintLines = null

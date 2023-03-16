@@ -1,4 +1,4 @@
-type PrintLines = {
+export type PrintLines = {
     [key: string]: string;
 };
 export declare class PayedTerminal {
@@ -9,4 +9,3 @@ export declare class PayedTerminal {
     appendToPrintOutOnSuccess(printLines: PrintLines): PayedTerminal;
     initiatePayment(reference: string, totalPrice: number): boolean;
 }
-export {};
