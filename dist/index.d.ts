@@ -1,1 +1,1 @@
-export { PayedTerminal } from "./payed-terminal";
+export { PayedTerminal, PrintLines } from "./payed-terminal";
